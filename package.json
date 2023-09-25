@@ -1,8 +1,8 @@
 {
+  "homepage": "https://GabrielKim5.github.io/Portfolio",
   "name": "simple-next",
   "version": "0.1.0",
-  "homepage": "https://GabrielKim5.github.io/Portfolio",
-  "private": false,
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
