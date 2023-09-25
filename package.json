@@ -1,11 +1,14 @@
 {
   "name": "simple-next",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "http://GabrielKim5.github.io/Portfolio",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +26,7 @@
     "@tailwindcss/forms": "^0.5.3",
     "@types/aos": "^3.0.4",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.0.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2"
   }
