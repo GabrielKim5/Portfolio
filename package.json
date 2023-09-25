@@ -1,14 +1,14 @@
 {
-  "homepage": "https://GabrielKim5.github.io/Portfolio",
+  "homepage": "https://gabrielkim5.github.io/Portfolio",
   "name": "simple-next",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start",
+    "build": "next build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "dev": "next dev",
     "lint": "next lint"
   },
   "dependencies": {
